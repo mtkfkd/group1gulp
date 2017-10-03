@@ -1,61 +1,6 @@
 $background : #2c2c2c;
 $aBack : #aaa;
 
-
-
-/*.text {
-  background: $background;
-  color : #f55;
-}*/
-@mixin nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-}
-@mixin a {
-  background: $aBack;
-  text-decoration: none;
-  padding: 20px 40px;
-}
-
-nav {
-  > ul {
-    @include nav;
-      a {
-      @include a;
-    }
-  }
-}
-.box {
-  background: #faa;
-  > .text {
-  color: #aaf;
-  }
-  &:hover {
-  background: #fa2;
-  }
-  @media screen and(max-width: 400px) {
-  background: #f33;
-  height: 300px;
-  }
-}
-
-.sample01 {
-  @extend .box;
-  line-height: 1.5;
-}
-
-@mixin sample02 {
-  font-size: 1.6rem;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: all 300ms 20ms ease-in;
-  &:hover {
-    box-shadow: 2px 2px 2px #333;
-    width: 350px;
-  }
-}
-
-.sample03 {
-  @include sample02;
+.header{
+  color : brown;
 }
