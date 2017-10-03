@@ -1,5 +1,10 @@
 .header {
   color: brown;
+  font-size: 4rem;
+}
+
+.header__image {
+  margin: 0 auto;
 }
 
 body {
@@ -8,7 +13,7 @@ body {
 }
 
 nav {
-  background: brown;
+  background: #FF8000;
   width: 100%;
 }
 
@@ -18,7 +23,7 @@ nav {
 }
 
 .nav__item {
-  background: brown;
+  background: #FF8000;
   height: 40px;
   list-style: none;
   margin: 0 auto;
@@ -29,5 +34,30 @@ nav {
   color: white;
   font-weight: bold;
   font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer container {
+  background: #FF8000;
+  width: 100%;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_item {
+  background: brown;
+  height: 40px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+}
+
+.footer_item > a {
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
   text-decoration: none;
 }

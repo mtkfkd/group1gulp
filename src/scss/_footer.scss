@@ -1,19 +1,34 @@
+<<<<<<< HEAD
 .footer__inner {
   background: orange;
   width: 100%;
 }
 
   .footer__list {
+=======
+.footer container {
+  background: #FF8000;
+  width: 100%;
+}
+
+.footer__list {
+>>>>>>> 906e9644b26d146cb88256043761d5fd52c02d79
   display: flex;
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
   .footer__item {
   background: blue;
+=======
+.footer_item {
+  background: brown;
+>>>>>>> 906e9644b26d146cb88256043761d5fd52c02d79
   height: 40px;
   list-style: none;
   margin: 0 auto;
   padding: 10px 0 0 0;
+<<<<<<< HEAD
   }
 
   .footer__item > a {
@@ -22,3 +37,14 @@
   font-size: 1.2rem;
   text-decoration: none;
   }
+=======
+}
+
+.footer_item > a {
+  color:white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+>>>>>>> 906e9644b26d146cb88256043761d5fd52c02d79
