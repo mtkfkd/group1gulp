@@ -1,2 +1,0 @@
-# 「.AppleDouble」フォルダを除外
-.node_modules/
