@@ -1,61 +1,29 @@
-$background : #2c2c2c;
-$aBack : #aaa;
-
-
-
-/*.text {
-  background: $background;
-  color : #f55;
-}*/
-@mixin nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-}
-@mixin a {
-  background: $aBack;
-  text-decoration: none;
-  padding: 20px 40px;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-  > ul {
-    @include nav;
-      a {
-      @include a;
-    }
-  }
-}
-.box {
-  background: #faa;
-  > .text {
-  color: #aaf;
-  }
-  &:hover {
-  background: #fa2;
-  }
-  @media screen and(max-width: 400px) {
-  background: #f33;
-  height: 300px;
-  }
+  background: brown;
+  width: 100%;
 }
 
-.sample01 {
-  @extend .box;
-  line-height: 1.5;
+.nav__list {
+  display: flex;
+  justify-content: space-between;
 }
 
-@mixin sample02 {
-  font-size: 1.6rem;
-  border-radius: 4px;
+.nav__item {
+  background: brown;
+  height: 40px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+}
+
+.nav__item > a {
+  color:white;
+  font-weight: bold;
+  font-size: 1.2rem;
   text-decoration: none;
-  transition: all 300ms 20ms ease-in;
-  &:hover {
-    box-shadow: 2px 2px 2px #333;
-    width: 350px;
-  }
-}
-
-.sample03 {
-  @include sample02;
 }
