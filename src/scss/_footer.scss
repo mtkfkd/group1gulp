@@ -1,10 +1,9 @@
 .footer__inner {
-  background: orange;
+  background: $mainColor;
   width: 100%;
 }
 
-.footer container {
-  background: $mainColor;
+.footer .container {
   width: 100%;
 }
 
@@ -12,7 +11,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 
 .footer_item {
   // background: $mainColor;
@@ -22,9 +20,19 @@
   padding: 10px 0 0 0;
   }
 
-  .footer__item > a {
-  color:white;
+  .footer__item a {
+  color: #fff;
   font-weight: bold;
   font-size: 1.2rem;
   text-decoration: none;
+  }
+
+  .footer__address {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer__copy {
+    text-align: center;
   }
