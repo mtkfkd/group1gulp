@@ -1,0 +1,14 @@
+.footer {
+  background: $background;
+  width: 100px;
+  height: 100px;
+  transition: all 800ms 0s ease;
+  &:hover {
+    background: #5070ff;
+    width: 400px;
+    height: 400px;
+    transform: rotate(90deg);
+    box-shadow: 2px -2px 4px #333;
+  }
+}
+
