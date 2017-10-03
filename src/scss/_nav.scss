@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background: &mainColor;
+  background: $mainColor;
   width: 100%;
 }
 
@@ -15,7 +15,7 @@ nav {
 }
 
 .nav__item {
-  background: brown;
+  background: $mainColor;
   height: 40px;
   list-style: none;
   margin: 0 auto;
